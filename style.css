@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+}
+
+.container--central{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+}
+
+#startButton{
+    border: 5px black solid;
+    width: 150px;
+    margin: 25px auto;
+    padding: 10px;
+    font-weight: bold;
+    color: green;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container__tictactoeboard{
+    display: inline-flex;
+    width: 350px;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 25px;
+}
+
+.container__tictactoetile{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border: 5px black solid;
+    font-size: 5em;
+    text-align: center;
+    cursor: pointer;
+}
